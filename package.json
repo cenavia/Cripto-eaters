@@ -1,0 +1,26 @@
+{
+  "name": "platzi-eaters",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "deploy": "npm run build && npm run export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.7.0",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  }
+}
